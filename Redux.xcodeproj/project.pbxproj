@@ -7,19 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42995CC26335C4000547F4F /* LibraryReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42995CB26335C3F00547F4F /* LibraryReducer.swift */; };
+		C42995D026335C6C00547F4F /* LibraryAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42995CF26335C6C00547F4F /* LibraryAction.swift */; };
 		C44285B6262A5CC80043B084 /* ReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44285B5262A5CC80043B084 /* ReduxApp.swift */; };
 		C44285B8262A5CC80043B084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44285B7262A5CC80043B084 /* ContentView.swift */; };
 		C44285BA262A5CCA0043B084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44285B9262A5CCA0043B084 /* Assets.xcassets */; };
 		C44285BD262A5CCA0043B084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44285BC262A5CCA0043B084 /* Preview Assets.xcassets */; };
+		C44285C6262A5CE50043B084 /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44285C5262A5CE50043B084 /* Redux.swift */; };
+		C47D0E04262B9A0D0015122C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D0E03262B9A0D0015122C /* AppState.swift */; };
+		C47D0E13262B9F310015122C /* LibraryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D0E12262B9F310015122C /* LibraryState.swift */; };
+		C47D0E19262BA3DB0015122C /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D0E18262BA3DB0015122C /* ArtistsView.swift */; };
+		C47D0E1D262BA4990015122C /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D0E1C262BA4990015122C /* AlbumsView.swift */; };
+		C47D0E20262BA5840015122C /* SongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D0E1F262BA5840015122C /* SongsView.swift */; };
+		C47D0E23262BA9280015122C /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47D0E22262BA9280015122C /* SpotifyService.swift */; };
+		C4B810D9262B933F000EC9FC /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B810D8262B933F000EC9FC /* Mock.swift */; };
+		C4B810DC262B9366000EC9FC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B810DB262B9366000EC9FC /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C42995CB26335C3F00547F4F /* LibraryReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryReducer.swift; sourceTree = "<group>"; };
+		C42995CF26335C6C00547F4F /* LibraryAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAction.swift; sourceTree = "<group>"; };
 		C44285B2262A5CC80043B084 /* Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44285B5262A5CC80043B084 /* ReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxApp.swift; sourceTree = "<group>"; };
 		C44285B7262A5CC80043B084 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C44285B9262A5CCA0043B084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44285BC262A5CCA0043B084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C44285BE262A5CCA0043B084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44285C5262A5CE50043B084 /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
+		C47D0E03262B9A0D0015122C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		C47D0E12262B9F310015122C /* LibraryState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryState.swift; sourceTree = "<group>"; };
+		C47D0E18262BA3DB0015122C /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; };
+		C47D0E1C262BA4990015122C /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
+		C47D0E1F262BA5840015122C /* SongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsView.swift; sourceTree = "<group>"; };
+		C47D0E22262BA9280015122C /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyService.swift; sourceTree = "<group>"; };
+		C4B810D8262B933F000EC9FC /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		C4B810DB262B9366000EC9FC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,13 +55,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C42995C926335C1800547F4F /* library */ = {
+			isa = PBXGroup;
+			children = (
+				C47D0E12262B9F310015122C /* LibraryState.swift */,
+				C42995CB26335C3F00547F4F /* LibraryReducer.swift */,
+				C42995CF26335C6C00547F4F /* LibraryAction.swift */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		C42995CA26335C2300547F4F /* app */ = {
+			isa = PBXGroup;
+			children = (
+				C47D0E03262B9A0D0015122C /* AppState.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
 		C44285A9262A5CC80043B084 = {
 			isa = PBXGroup;
 			children = (
 				C44285B4262A5CC80043B084 /* Redux */,
 				C44285B3262A5CC80043B084 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 1;
 		};
 		C44285B3262A5CC80043B084 /* Products */ = {
 			isa = PBXGroup;
@@ -53,7 +96,12 @@
 			isa = PBXGroup;
 			children = (
 				C44285B5262A5CC80043B084 /* ReduxApp.swift */,
-				C44285B7262A5CC80043B084 /* ContentView.swift */,
+				C4B810D8262B933F000EC9FC /* Mock.swift */,
+				C4B810DB262B9366000EC9FC /* Model.swift */,
+				C47D0E22262BA9280015122C /* SpotifyService.swift */,
+				C47D0E02262B99EB0015122C /* redux */,
+				C4A127DA262F8DBE00F1B0C6 /* states */,
+				C4B810DE262B937A000EC9FC /* views */,
 				C44285B9262A5CCA0043B084 /* Assets.xcassets */,
 				C44285BE262A5CCA0043B084 /* Info.plist */,
 				C44285BB262A5CCA0043B084 /* Preview Content */,
@@ -67,6 +115,34 @@
 				C44285BC262A5CCA0043B084 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C47D0E02262B99EB0015122C /* redux */ = {
+			isa = PBXGroup;
+			children = (
+				C44285C5262A5CE50043B084 /* Redux.swift */,
+			);
+			path = redux;
+			sourceTree = "<group>";
+		};
+		C4A127DA262F8DBE00F1B0C6 /* states */ = {
+			isa = PBXGroup;
+			children = (
+				C42995CA26335C2300547F4F /* app */,
+				C42995C926335C1800547F4F /* library */,
+			);
+			path = states;
+			sourceTree = "<group>";
+		};
+		C4B810DE262B937A000EC9FC /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C44285B7262A5CC80043B084 /* ContentView.swift */,
+				C47D0E18262BA3DB0015122C /* ArtistsView.swift */,
+				C47D0E1C262BA4990015122C /* AlbumsView.swift */,
+				C47D0E1F262BA5840015122C /* SongsView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +214,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B810DC262B9366000EC9FC /* Model.swift in Sources */,
 				C44285B8262A5CC80043B084 /* ContentView.swift in Sources */,
+				C47D0E1D262BA4990015122C /* AlbumsView.swift in Sources */,
+				C47D0E20262BA5840015122C /* SongsView.swift in Sources */,
+				C47D0E23262BA9280015122C /* SpotifyService.swift in Sources */,
+				C42995CC26335C4000547F4F /* LibraryReducer.swift in Sources */,
 				C44285B6262A5CC80043B084 /* ReduxApp.swift in Sources */,
+				C42995D026335C6C00547F4F /* LibraryAction.swift in Sources */,
+				C47D0E13262B9F310015122C /* LibraryState.swift in Sources */,
+				C47D0E19262BA3DB0015122C /* ArtistsView.swift in Sources */,
+				C47D0E04262B9A0D0015122C /* AppState.swift in Sources */,
+				C44285C6262A5CE50043B084 /* Redux.swift in Sources */,
+				C4B810D9262B933F000EC9FC /* Mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Redux/Preview Content\"";
+				DEVELOPMENT_TEAM = G4U859NU57;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Redux/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +378,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Redux/Preview Content\"";
+				DEVELOPMENT_TEAM = G4U859NU57;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Redux/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
